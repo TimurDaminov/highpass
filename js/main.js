@@ -203,9 +203,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const selectLanguage = document.getElementById('header-lang')
     selectLanguage.addEventListener('change', (event) => {
         if (selectLanguage.value === 'en') {
-            window.location.href = 'indexen.html';
+            window.location.href = 'english.html';
         } else {
-            window.location.href = 'indexru.html';
+            window.location.href = 'index.html';
         }
     })
     
